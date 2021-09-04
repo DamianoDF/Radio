@@ -10,6 +10,6 @@ import it.failutti.damiano.model.BranoMusicale;
 
 public interface BranoMusicaleRepository extends JpaRepository< BranoMusicale ,Long> {
 	
-	public List<BranoMusicale> findByNome(String nome);
+	public List<BranoMusicale> findByTitolo(String titolo);
 
 }
